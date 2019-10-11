@@ -1,0 +1,11 @@
+img {
+    width: 800; 
+
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    color: rgba(53, 36, 207, 70);
+    background-size: cover; 
+     
+}

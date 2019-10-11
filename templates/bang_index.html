@@ -1,0 +1,10 @@
+<!-- templates/bang_index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Bang</h1>
+    {% for bang in bang %}
+        <h2>{{ bang.title }}</h2>
+        <small>{{ bang.description }}</small>
+    {% endfor %}
+{% endblock %}
