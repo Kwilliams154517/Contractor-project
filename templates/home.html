@@ -1,8 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
+
 <h1>  B A N G ! ! ! </h1>
     <p>...energy drinks</p>
 <p>Do you BANG BROSKI!</p>
+<div class="container">
+    <h1 style="color: red"; class= logo >Bangs bangin' flavors</h1>
+    <strong><nav>
+        <ul class="menu">
+        <button>Bangin Flavors</button>
+         <!-- <a>href="{{ url_for('home') }}" </a> -->
+        <!-- <li><a href="{{ url_for('bang_index') }}">BANG</a></li> -->
+        </ul>
+    </nav></strong>
+    </div>
 <img src="{{url_for("static", filename = "bang.jpeg")}}"
 {% endblock %}
